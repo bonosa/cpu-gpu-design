@@ -1,10 +1,17 @@
-﻿__pycache__/
-*.pyc
-.claude/
-.env
-.venv/
-node_modules/
-dist/
-build/
+﻿# Icarus Verilog compiled output
+*.out
+*.vvp
+
+# Waveform dumps
+*.vcd
+*.fst
+
+# Rendered images from simulation
+*.ppm
+frame.png
+*.bmp
+
+# OS / editor junk
 .DS_Store
-*.log
+Thumbs.db
+.vscode/
